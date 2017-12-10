@@ -19,8 +19,8 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://0.0.0.0:4000" # localTesting
-url: "https://andoniaf.github.io" # localTesting
+url: "http://0.0.0.0:4000" # localTesting
+#url: "https://andoniaf.github.io" # localTesting
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
@@ -45,7 +45,7 @@ jekyll-archives:
 # disqus_shortname: bencentra
 
 # Google analytics
- ga_tracking_id: "UA-110990927-1"
+ga_tracking_id: "UA-110990927-1"
 
 # Category descriptions (for archive pages)
 descriptions:

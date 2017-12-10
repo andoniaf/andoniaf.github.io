@@ -4,7 +4,7 @@ title:  "Consultando la EMT desde el fondo de escritorio"
 date:   2017-10-10 13:13:13
 author: Andoni A.
 categories: Linux
-tags: conky, emt, python
+tags: conky emt python
 ---
 
 Buenas! Como usuario habitual del transporte público, en este caso concreto de bus (EMT Valencia), tengo que consultar varias veces al día su aplicación para ver cual es el próximo bus y <del>salir corriendo</del> bajar tranquilamente a por él.

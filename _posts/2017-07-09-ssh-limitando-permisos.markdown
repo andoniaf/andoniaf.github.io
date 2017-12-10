@@ -4,6 +4,7 @@ title:  "SSH – Limitando permisos en claves RSA"
 date:   2017-07-09 13:13:13
 author: Andoni Alonso
 categories: Linux Seguridad
+tags: ssh 
 ---
 
 <p style="text-align:left;">Hoy traigo una entrada <em>express</em> sobre una función muy interesante que desconocía de las conexiones mediante <strong>claves RSA</strong>, y es la posibilidad (entre otros) de restringir desde que equipos se usan dichas claves o los comandos que pueden ejecutar.</p>

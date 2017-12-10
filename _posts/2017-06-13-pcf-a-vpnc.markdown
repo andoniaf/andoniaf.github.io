@@ -4,8 +4,13 @@ title:  "VPN en Linux — Convirtiendo ficheros .pcf (Cisco) a formato vpnc"
 date:   2017-06-13 13:13:13
 author: Andoni A.
 categories: Linux
+tags: pcf vpn vpnc
 ---
-Buenas, hoy os traigo una entrada muy rápida para aquellos que en algún momento tengan que <strong>conectarse</strong> por <strong>VPN</strong> a una red y lo único que tengan sea un <strong>fichero <a href="https://en.wikipedia.org/wiki/Profile_configuration_file">.pcf</a></strong> y unas instrucciones sobre como usarlo en Windows...<img class="size-thumbnail wp-image-434 alignright" src="https://blogde-andoniaf.rhcloud.com/wp-content/uploads/2017/06/santang-rambo-tux-150x150.png" alt="" width="150" height="150" />
+Buenas, hoy os traigo una entrada muy rápida para aquellos que en algún momento tengan que <strong>conectarse</strong> por <strong>VPN</strong> a una red y lo único que tengan sea un <strong>fichero <a href="https://en.wikipedia.org/wiki/Profile_configuration_file">.pcf</a></strong> y unas instrucciones sobre como usarlo en Windows...
+
+<a href="//0.0.0.0:4000/assets/images/santang-rambo-tux.png" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
+  <img src="//0.0.0.0:4000/assets/images/santang-rambo-tux.png" title="Check out the Falcon 9 from SpaceX" width="150" height="150" >
+</a>
 
 [<em>Para Linux no dan instrucciones porque saben que podemos con todo..</em>. ;) ]
 
