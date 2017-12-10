@@ -4,14 +4,16 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+[//]: <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+Bienvenido a mi blog, mi nombre es **Andoni**.
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+Soy un apasionado de la tecnología que nunca se cansa de aprender. Me gusta dedicar parte de mi tiempo libre a continuar aprendiendo, sobre todo temas relacionados con **Linux** o la **Ciberseguridad**.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Porque como decía (o dicen que decía) Einstein:
+> “Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos
+las mismas cosas.”
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+Siempre me ha gustado escribir, y como también suele decir *"la mejor forma de aprender es enseñando"*, así que aquí encontraréis cosas que me han resultado interesantes de compartir.
+
+*~ Saludos y que la fuerza os acompañe!*
