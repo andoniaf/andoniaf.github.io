@@ -3,8 +3,9 @@ layout: post
 title:  "Writeup — HTB Blocky"
 date:   2017-12-10 13:13:13
 author: Andoni A.
-categories: Writeups 
+categories: Writeups
 tags: linux writeup seguridad ctf
+cover: "/assets/hacking_header.jpg"
 ---
 
 Buenas, aprovechando que retiraban esta máquina, **Blocky**, de [HTB](hackthebox.eu) (hasta que no los retiran no está permitido publicar writeups sobre sus retos) quería

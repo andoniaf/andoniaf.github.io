@@ -3,3 +3,5 @@ _site/
 .jekyll-metadata
 localRun.sh
 typography.html
+imgLabel.sh
+notas.md
