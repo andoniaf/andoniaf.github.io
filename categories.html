@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Tags"
-permalink: /tags/
+title: "Categorias"
+permalink: /categories/
 ---
 
-{% for tag in site.tags %}
-  {% capture cat %}{{ tag | first }}{% endcapture %}
+{% for category in site.categories %}
+  {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
@@ -13,7 +13,7 @@ permalink: /tags/
     {% endif %}
   {% endfor %}
   <ul class="posts-list">
-  {% for post in site.tags[cat] %}
+  {% for post in site.categories[cat] %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

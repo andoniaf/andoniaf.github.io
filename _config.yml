@@ -19,8 +19,8 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://0.0.0.0:4000" # localTesting
-url: "https://andoniag.github.io" # localTesting
+url: "http://0.0.0.0:4000" # localTesting
+#url: "https://andoniag.github.io" # localTesting
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
@@ -53,7 +53,9 @@ descriptions:
     desc: "Posts describing Jekyll setup techniques."
 
   - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+  - cat: test
+    desc: "Just some test category."
 
 # Social icons and sharing options
 #
@@ -194,6 +196,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_repo: "https://github.com/andoniaf"
     os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_src: "git@github.com:andoniaf/andoniaf.github.io.git"
