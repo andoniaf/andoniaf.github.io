@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://0.0.0.0:4000" # localTesting
-url: "https://andoniag.github.io" # localTesting
+url: "https://andoniaf.github.io" # localTesting
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
