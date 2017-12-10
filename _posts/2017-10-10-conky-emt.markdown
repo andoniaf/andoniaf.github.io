@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Consultando la EMT desde el fondo de escritorio"
+date:   2017-10-10 13:13:13
+author: Andoni A.
+categories: Linux
+tags: conky, emt, python
+---
+
+Buenas! Como usuario habitual del transporte público, en este caso concreto de bus (EMT Valencia), tengo que consultar varias veces al día su aplicación para ver cual es el próximo bus y <del>salir corriendo</del> bajar tranquilamente a por él.
+
+Tener que <em>sacar cada vez el móvil, desbloquearlo, abrir la aplicación, seleccionar la parada y ver la información</em> se hace poco pesado... ¿No sería más fácil tener esa información en el fondo de escritorio? <strong>Si</strong>, lo es, por eso he preparado un pequeño módulo en <strong>Python</strong> que permite consultar esa información haciendo uso de <strong>Conky</strong>.
+
+Si no conocíais <strong>Conky</strong> aquí os dejo un par de links con <strong>información</strong> sobre qué es y como instalarlo: <a href="http://conky.sourceforge.net/documentation.html">Conky Sourceforge</a>  y <a href="http://conky.sourceforge.net/docs.html">man conky</a>.
+
+Una vez <strong>Conky</strong> este instalado podéis descargar el módulo desde su <a href="https://github.com/andoniaf/conky_emtVLC">repositorio</a> y con añadir unas lineas en la configuración podéis tenerlo funcionando en un momento.
+
+<img class="size-full wp-image-419 alignleft" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_003.png" alt="" width="292" height="697" />
+
+En el <strong>repositorio</strong> están las <strong>instrucciones</strong> necesarias para configurarlo y los errores más frecuentes.
+
+El error más común es el de "<em>Temporalmente fuera de servicio</em>", algo que ocurre también desde su web o desde su aplicación.
+
+
+
+Por último os dejo la configuración del <strong>ejemplo</strong> de la imagen <a href="https://gist.github.com/andoniaf/ac9a04b2746196475322cd5dde5a9036">aquí</a>.
+
+
+
+
+
+
+
+<em>~ Saludos y que la fuerza os acompañe!</em>

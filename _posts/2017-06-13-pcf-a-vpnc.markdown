@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "VPN en Linux — Convirtiendo ficheros .pcf (Cisco) a formato vpnc"
+date:   2017-06-13 13:13:13
+author: Andoni A.
+categories: Linux
+---
+Buenas, hoy os traigo una entrada muy rápida para aquellos que en algún momento tengan que <strong>conectarse</strong> por <strong>VPN</strong> a una red y lo único que tengan sea un <strong>fichero <a href="https://en.wikipedia.org/wiki/Profile_configuration_file">.pcf</a></strong> y unas instrucciones sobre como usarlo en Windows...<img class="size-thumbnail wp-image-434 alignright" src="https://blogde-andoniaf.rhcloud.com/wp-content/uploads/2017/06/santang-rambo-tux-150x150.png" alt="" width="150" height="150" />
+
+[<em>Para Linux no dan instrucciones porque saben que podemos con todo..</em>. ;) ]
+
+
+
+Yo lo primero que intenté fue importar sin más la configuración desde el gestor de conexiones, pero... No
+<img class="aligncenter wp-image-436 " src="https://blogde-andoniaf.rhcloud.com/wp-content/uploads/2017/06/Selección_006-300x203.png" alt="" width="411" height="278" />
+
+La solución al problema fue sencilla, usando <a href="https://linux.die.net/man/8/vpnc"><strong>vpnc</strong>.</a>
+<ul>
+ 	<li>Instalamos el cliente:</li>
+</ul>
+<pre class="code">sudo apt-get install vpnc</pre>
+<ul>
+ 	<li>Convertimos el fichero con formato PCF a un fichero de configuración con el formato que necesitamos:</li>
+</ul>
+<pre class="code">pcf2vpnc vpnNET.pcf vpnNET.conf</pre>
+<ul>
+ 	<li>De paso podemos "securizar" los permisos del fichero:</li>
+</ul>
+<pre class="code">chmod 600 vpnNET.conf</pre>
+<ul>
+ 	<li style="list-style-type:none;">
+<ul>
+ 	<li>Probablemente necesitemos modificar el fichero para incluir nuestro usuario, también podríamos incluir la contraseña pero a mi personalmente no me gusta dejar contraseñas en texto plano.</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+ 	<li>Ahora que tenemos preparado el fichero de configuración podemos conectar la VPN con:</li>
+</ul>
+<img class="aligncenter size-full wp-image-432" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_004.png" alt="" width="654" height="91" />
+<ul>
+ 	<li>Para desconectar solo tendremos que introducir el siguiente comando:</li>
+</ul>
+<img class="aligncenter size-full wp-image-431" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_005.png" alt="" width="490" height="107" />
+
+
+
+
+
+<em>~ Saludos y que la fuerza os acompañe!</em>
