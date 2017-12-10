@@ -15,7 +15,9 @@ Si no conocíais <strong>Conky</strong> aquí os dejo un par de links con <stron
 
 Una vez <strong>Conky</strong> este instalado podéis descargar el módulo desde su <a href="https://github.com/andoniaf/conky_emtVLC">repositorio</a> y con añadir unas lineas en la configuración podéis tenerlo funcionando en un momento.
 
-<img class="size-full wp-image-419 alignleft" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_003.png" alt="" width="292" height="697" />
+<a href="{{ site.imgdir }}/conky_emt.png" data-lightbox="falcon9-large" data-title="Plugin Conky EMT">
+  <img src="{{ site.imgdir }}/conky_emt.png" title="Plugin Conky EMT" width="292" height="697" >
+</a>
 
 En el <strong>repositorio</strong> están las <strong>instrucciones</strong> necesarias para configurarlo y los errores más frecuentes.
 
