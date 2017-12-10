@@ -8,8 +8,8 @@ tags: pcf vpn vpnc
 ---
 Buenas, hoy os traigo una entrada muy rápida para aquellos que en algún momento tengan que <strong>conectarse</strong> por <strong>VPN</strong> a una red y lo único que tengan sea un <strong>fichero <a href="https://en.wikipedia.org/wiki/Profile_configuration_file">.pcf</a></strong> y unas instrucciones sobre como usarlo en Windows...
 
-<a href="//0.0.0.0:4000/assets/images/santang-rambo-tux.png" data-lightbox="falcon9-large" data-title="Check out the Falcon 9 from SpaceX">
-  <img src="//0.0.0.0:4000/assets/images/santang-rambo-tux.png" title="Check out the Falcon 9 from SpaceX" width="150" height="150" >
+<a href="{{ site.imgdir }}/santang-rambo-tux.png" data-lightbox="falcon9-large" data-title="Rambo Tux">
+  <img src="{{ site.imgdir }}/santang-rambo-tux.png" title="Rambo Tux" width="150" height="150" >
 </a>
 
 [<em>Para Linux no dan instrucciones porque saben que podemos con todo..</em>. ;) ]
@@ -17,7 +17,9 @@ Buenas, hoy os traigo una entrada muy rápida para aquellos que en algún moment
 
 
 Yo lo primero que intenté fue importar sin más la configuración desde el gestor de conexiones, pero... No
-<img class="aligncenter wp-image-436 " src="https://blogde-andoniaf.rhcloud.com/wp-content/uploads/2017/06/Selección_006-300x203.png" alt="" width="411" height="278" />
+<a href="{{ site.imgdir }}/pcf-a-vpnc_01.png" data-lightbox="falcon9-large" data-title="NOOPE">
+  <img src="{{ site.imgdir }}/pcf-a-vpnc_01.png" title="NOOOPE" width="411" height="278" >
+</a>
 
 La solución al problema fue sencilla, usando <a href="https://linux.die.net/man/8/vpnc"><strong>vpnc</strong>.</a>
 <ul>
@@ -43,12 +45,15 @@ La solución al problema fue sencilla, usando <a href="https://linux.die.net/man
 <ul>
  	<li>Ahora que tenemos preparado el fichero de configuración podemos conectar la VPN con:</li>
 </ul>
-<img class="aligncenter size-full wp-image-432" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_004.png" alt="" width="654" height="91" />
+<a href="{{ site.imgdir }}/pcf-a-vpnc_02.png" data-lightbox="falcon9-large" data-title="pcf a vpnc">
+  <img src="{{ site.imgdir }}/pcf-a-vpnc_02.png" title="pcf a vpnc" width="654" height="91" >
+</a>
 <ul>
  	<li>Para desconectar solo tendremos que introducir el siguiente comando:</li>
 </ul>
-<img class="aligncenter size-full wp-image-431" src="http://blogdeandoniaf.files.wordpress.com/2017/06/seleccic3b3n_005.png" alt="" width="490" height="107" />
-
+<a href="{{ site.imgdir }}/pcf-a-vpnc_03.png" data-lightbox="falcon9-large" data-title="pcf a vpnc">
+  <img src="{{ site.imgdir }}/pcf-a-vpnc_03.png" title="pcf a vpnc" width="490" height="107" >
+</a>
 
 
 

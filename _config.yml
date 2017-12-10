@@ -21,6 +21,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://0.0.0.0:4000" # localTesting
 #url: "https://andoniaf.github.io" # localTesting
+imgdir: "//0.0.0.0:4000/assets/images"
+#imgdir: "//andoniaf.github.io/assets/images"
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
