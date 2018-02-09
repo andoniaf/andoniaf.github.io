@@ -4,7 +4,7 @@ title: Entendiendo la carga (load) en Linux
 date: 2017-03-20 21:02
 author: Andoni A.
 categories: Linux
-tags: [Linux, load]
+tags: linux load
 ---
 La <strong>carga del sistema </strong>mide el consumo de los recursos de un equipo, y por tanto es importante para conocer el rendimiento del mismo.
 
