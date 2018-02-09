@@ -4,7 +4,7 @@ title: Nextcloud – Añadiendo almacenamiento externo II (Dropbox)
 date: 2016-12-30 13:37
 author: Andoni A.
 categories: Linux
-tags: [cloud, Linux, nextcloud, Selfhosted]
+tags: [cloud, linux, nextcloud, selfhosted]
 ---
 En la entrada anterior configurábamos Samba como <strong>almacenamiento externo</strong> para Nextcloud, hoy toca <strong>Dropbox</strong>. Vamos directos al grano:
 

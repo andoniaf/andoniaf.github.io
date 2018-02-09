@@ -4,7 +4,7 @@ title: Nextcloud - Construye tu propia nube
 date: 2016-12-04 13:37
 author: Andoni A.
 categories: Linux
-tags: [cloud, Linux, nextcloud, Selfhosted]
+tags: [cloud, linux, nextcloud, selfhosted]
 ---
 Una de las principales razones por las que decidí comprarme mi propio servidor fue para poder montar mi propio Dropbox, porque "<em>la Nube no es más que el ordenador de <img class="wp-image-230 alignright" src="http://blogdeandoniaf.files.wordpress.com/2017/11/no-cloud.png" alt="There is no cloud" width="160" height="129" />otra persona</em>", y prefiero que esa persona, sea yo.
 
