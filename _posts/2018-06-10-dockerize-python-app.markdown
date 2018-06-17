@@ -16,7 +16,7 @@ Podemos crear nuestra propia imagen de Docker mediante un **Dockerfile**. Yo voy
 
 Para empezar tengo el código del bot en un directorio `/pyEMTbot-docker`:
 ```
-~/git/pyEMTbot-docker> ls
+/pyEMTbot-docker> ls
 bot.py  logs  modules  requirements.txt  settings.py  settings-template.py
 ```
 
