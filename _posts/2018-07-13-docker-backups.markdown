@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Backup de contenedores Docker"
-date: 2018-07-04 20:13:13
+date: 2018-07-04 13:13:13
 author: Andoni A.
 categories: Docker
 tags: docker backup script
 cover: "/assets/docker_header.jpg"
 ---
 
-Buenas, siguiendo con **Docker** hoy voy a hablar de como hacer backups de los contenedores. *¿Backup de contenedores?¿Pero no se supone que deberían ser stateless?¿Por que queremos hacer un backup?* Si, probablemente hacer backups de los contenedores no sea una prioridad por la forma en la que se usan, pero en algunos casos puede sernos útil. (*Por ejemplo, para crear una imagen a partir de otra o para mover el contenedor de maquina.*)
+Buenas, siguiendo con **Docker**, hoy voy a hablar de como hacer backups de los contenedores. *¿Backup de contenedores?¿Pero no se supone que deberían ser stateless?¿Por qué queremos hacer un backup?* Si, probablemente hacer backups de los contenedores no sea una prioridad por la forma en la que se usan, pero en algunos casos puede sernos útil. (*Por ejemplo, para crear una imagen a partir de otra o para mover el contenedor de máquina.*)
 
-Lo que si considero más interesante es hacer backups de los volúmenes montados en un contenedor, porque en muchos casos usaremos esos volúmenes para mantener la persistencia de dichos datos, ¿y si son persistentes es porque nos importa mantenerlos no?
+Lo que sí considero más interesante es hacer backups de los volúmenes montados en un contenedor, porque en muchos casos usaremos esos volúmenes para mantener la persistencia de dichos datos, ¿y si son persistentes es porque nos importa mantenerlos no?
 
 Pero primero empecemos por como hacer el backup de un contenedor, recordemos que un **contenedor** al final es una **instancia en ejecución** de una **imagen**.
 
@@ -44,7 +44,7 @@ También podríamos exportar directamente un contenedor a un fichero con [`docke
 
 Ambos comandos generan un tarball, la diferencia es que `docker save` mantiene todas las capas y tags mientras que `docker export` no mantiene ningún tipo de "histórico", *aplanando* (flattening) la imagen como se suele decir.
 
-Despues podemos cargar la imagen con [`docker load`](https://docs.docker.com/engine/reference/commandline/load) (o con [`docker import`](https://docs.docker.com/engine/reference/commandline/import) si hemos usado `docker export`):
+Después podemos cargar la imagen con [`docker load`](https://docs.docker.com/engine/reference/commandline/load) (o con [`docker import`](https://docs.docker.com/engine/reference/commandline/import) si hemos usado `docker export`):
 ```
 % docker rmi pyemtbot-docker:nuevotag                                                                                                                 !5310
 Untagged: pyemtbot-docker:nuevotag
@@ -61,13 +61,13 @@ Loaded image: pyemtbot-docker:nuevotag
 pyemtbot-docker                nuevotag            95fc2296e8ae        22 minutes ago      1.18GB
 ```
 
-Con estos comandos ya podemos realizar backups o mover de máquina nuestros contendores, pero... ¡aun faltan los datos de los volúmenes!
+Con estos comandos ya podemos realizar backups o mover de máquina nuestros contenedores, pero... ¡aun faltan los datos de los volúmenes!
 
 La [documentación de Docker nos sugiere una solución](https://docs.docker.com/storage/volumes/#backup-a-container) para hacer estos backups que a mi parecer es demasiado manual. Como fan de lo automático quería algo que simplemente indicándole el nombre del contenedor hiciera un backup de todos sus volúmenes montados, pero también con la opción de hacer solo el backup de algunos.
 
 Para esto preparé [containerBck.sh](https://github.com/andoniaf/containersBck) <i class="fa fa-github"></i>. En el README ya esta explicado como usar el script por lo que unicamente voy a explicar un poco como gestiona el backup de los volúmenes.
 
-Si le indicamos la ruta de uno o varios volúmenes, fácil, simplemente crea un tar.gz de esos directorios. Por otro lado, si le indicamos que haga un backup de todos los volúmenes del contendor, los busca primero usando el comando [`docker inspect`](https://docs.docker.com/engine/reference/commandline/inspect/) y luego crea un tar.gz por cada uno de ellos:
+Si le indicamos la ruta de uno o varios volúmenes, fácil, simplemente crea un tar.gz de esos directorios. Por otro lado, si le indicamos que haga un backup de todos los volúmenes del contenedor, los busca primero usando el comando [`docker inspect`](https://docs.docker.com/engine/reference/commandline/inspect/) y luego crea un tar.gz por cada uno de ellos:
 
 ```
 aalonsof@venom:~% docker run -v /tmp:/tmp -v test01 ubuntu  
@@ -79,7 +79,7 @@ aalonsof@venom:~% docker inspect -f '{{ range .Mounts }}{{ .Source }} {{ end }}'
 /tmp /var/lib/docker/volumes/d210e09c257d7f095a6673d57956f7e65b5032adfd3df349d2b01e6f81862b53/_data
 ```
 
-El script incluye un periodo de retención ajustable que se encarga de eliminar los backups de los volumenes e imagenes que queden fuera de ese rango.
+El script incluye un periodo de retención ajustable que se encarga de eliminar los backups de los volúmenes e imágenes que queden fuera de ese rango.
 
 Cualquier sugerencia o mejora del script se agradece <i class="fa fa-smile-o"></i>, animaros a hacer algún <i class="fa fa-hand-o-right"></i> [PullRequest](https://github.com/andoniaf/containersBck/pulls) .
 
