@@ -75,7 +75,7 @@ aalonsof@venom:~% docker run -v /tmp:/tmp -v test01 ubuntu
 aalonsof@venom:~% docker ps -a | grep ubuntu                                        
 4de66d8ecfc8        ubuntu                              "/bin/bash"              59 seconds ago      Exited (0) 57 seconds ago                       wizardly_knuth
 
-aalonsof@venom:~% docker inspect -f '\{{ range .Mounts }}{{ .Source }} {{ end }}' 4de66d8ecfc8
+aalonsof@venom:~% docker inspect -f "{{ range .Mounts }}{{ .Source }} {{ end }}" 4de66d8ecfc8
 /tmp /var/lib/docker/volumes/d210e09c257d7f095a6673d57956f7e65b5032adfd3df349d2b01e6f81862b53/_data
 ```
 
