@@ -69,8 +69,8 @@ Para esto preparé [containerBck.sh](https://github.com/andoniaf/containersBck) 
 
 Si le indicamos la ruta de uno o varios volúmenes, fácil, simplemente crea un tar.gz de esos directorios. Por otro lado, si le indicamos que haga un backup de todos los volúmenes del contenedor, los busca primero usando el comando [`docker inspect`](https://docs.docker.com/engine/reference/commandline/inspect/) y luego crea un tar.gz por cada uno de ellos:
 
-<a href="/assets/images/2018/07/docker_bck01.jpg" data-lightbox="falcon9-large" data-title="Ejemplo docker inspect">
-  <img src="/assets/images/2018/07/docker_bck01.jpg" title="Ejemplo docker inspect"  witdh="736" >
+<a href="/assets/images/2018/07/docker_bck02.jpg" data-lightbox="falcon9-large" data-title="Ejemplo docker inspect">
+  <img src="/assets/images/2018/07/docker_bck02.jpg" title="Ejemplo docker inspect"  witdh="820" >
 
 El script incluye un periodo de retención ajustable que se encarga de eliminar los backups de los volúmenes e imágenes que queden fuera de ese rango.
 
