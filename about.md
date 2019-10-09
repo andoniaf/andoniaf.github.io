@@ -8,12 +8,10 @@ permalink: /about/
 
 Bienvenido a mi blog, mi nombre es **Andoni**.
 
-Soy un apasionado de la tecnología que nunca se cansa de aprender. Me gusta dedicar parte de mi tiempo libre a continuar aprendiendo, sobre todo temas relacionados con **Linux** o la **Ciberseguridad**.
-
-Porque como decía (o dicen que decía) Einstein:
+Trabajo como [SRE](https://landing.google.com/sre/) y me gusta definirme como una *esponja* que nunca se cansa de aprender, porque como decía (o dicen que decía) Einstein:
 > “Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos
 las mismas cosas.”
 
-Siempre me ha gustado escribir, y como también suele decir *"la mejor forma de aprender es enseñando"*, así que aquí encontraréis cosas que me han resultado interesantes de compartir.
+Siempre me ha gustado escribir, y como también se suele decir *"la mejor forma de aprender es enseñando"*, así que aquí encontraréis cosas que me han resultado interesantes de compartir.
 
 *~ Saludos y que la fuerza os acompañe!*
