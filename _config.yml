@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: Blog Nº13
-subtitle: "Un poco de esto, una pizca de aquello y seguramente algo de Linux."
+subtitle: "Un poco de esto, una pizca de aquello y seguramente algo de eso."
 email: andonialonsof@gmail.com
 name: Andoni A.
 description: >
-  Un poco de esto, una pizca de aquello y seguramente algo de Linux.
+  Un poco de esto, una pizca de aquello y seguramente algo de eso.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
