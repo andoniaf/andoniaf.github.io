@@ -46,7 +46,7 @@ Y sin duda, la charla que más recomiendo ver es la de [Russ Miles](https://twit
 
 Otra cosa que casi se me olvida mencionar es que como mínimo en tres charlas recomendaron o marcaron como lectura obligatoria el libro ['Accelerate'](https://amzn.to/2Mr2wxx) de Nicole Forsgren, Jez Humble y Gene Kim. Ya os podéis imaginar lo que estoy leyendo ahora mismo ;)
 
-<img src="http://t0.gstatic.com/images?q=tbn:ANd9GcQltv_ckqaPJ6w9Ff2I15QjbcRvpTUtPUcStgldF3rviBt_uvub" height="450" alt="Accelerate book" />
+<img src="https://t0.gstatic.com/images?q=tbn:ANd9GcQltv_ckqaPJ6w9Ff2I15QjbcRvpTUtPUcStgldF3rviBt_uvub" height="450" alt="Accelerate book" />
 
 
 Por último os dejo en [link](https://skillsmatter.com/conferences/11723-cloudnative-london-2019#skillscasts) directo a la lista de todas charlas.
