@@ -45,7 +45,7 @@ La comparación que usa me parece perfecta, así que la voy a copiar tal cual: I
 
 Coincido, como ya había dicho antes, en que no estamos listos (aún) para mezclar AI con Ops, creo que primero a la mayoría nos falta invertir mucho más en observabilidad y en mejorar la monitorización de nuestros sistemas.
 
-Y ahora llega la parte a la que estaba deseando llegar, ¿y vosotros qué opináis del tema? Me parece un tema interesante y bastante abierto a debate, así que espero vuestras opiniones por [<i class="fa fa-twitter-square fa-lg"></i>](https://twitter.com/andoni013) o [<i class="fa fa-linkedin-square fa-lg"></i>](https://www.linkedin.com/in/andoniaf/)!
+Y ahora llega la parte a la que estaba deseando llegar, ¿y vosotros qué opináis del tema? Me parece un tema interesante y bastante abierto a debate, así que espero vuestras opiniones por [<i class="fa fa-twitter-square fa-lg"></i>](https://twitter.com/andoni013/status/1266760676472733701?s=20) o [<i class="fa fa-linkedin-square fa-lg"></i>](https://www.linkedin.com/posts/andoniaf_el-otro-d%C3%ADa-descubr%C3%AD-que-era-aiops-y-me-activity-6672526392497860608-5oPv)!
 
 *~ Saludos y que la fuerza os acompañe!* <i class="fa fa-ra"></i>
 
