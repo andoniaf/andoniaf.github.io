@@ -44,7 +44,7 @@ Y sin duda, la charla que más recomiendo ver es la de [Russ Miles](https://twit
   <br>
 </div>
 
-Otra cosa que casi se me olvida mencionar es que como mínimo en tres charlas recomendaron o marcaron como lectura obligatoria el libro ['Accelerate'](https://amzn.to/2Mr2wxx) de Nicole Forsgren, Jez Humble y Gene Kim. Ya os podéis imaginar lo que estoy leyendo ahora mismo ;)
+Otra cosa que casi se me olvida mencionar es que como mínimo en tres charlas recomendaron o marcaron como lectura obligatoria el libro ['Accelerate'](https://amzn.to/2MeKYoA) de Nicole Forsgren, Jez Humble y Gene Kim. Ya os podéis imaginar lo que estoy leyendo ahora mismo ;)
 
 <img src="https://t0.gstatic.com/images?q=tbn:ANd9GcQltv_ckqaPJ6w9Ff2I15QjbcRvpTUtPUcStgldF3rviBt_uvub" height="450" alt="Accelerate book" />
 
