@@ -39,7 +39,7 @@ Con **AIOps** fomentamos ese mal hábito, ya se encargará él de filtrar las al
 > *Sí, esto lo ha escrito un SRE, si no menciono los SLOs por lo menos una vez exploto.*
 > <video src="/assets/images/2020/noslonosre.mov" height="300" controls preload></video>
 
-Al final, la única forma de no acabar con ahogado entre alarmas es alertar solo lo importante. Claro que quizá, como dice el autor del post, no tengamos forma de relacionar nuestros datos con la experiencia del cliente, pero entonces el problemas es que no tenemos las herramientas adecuadas.
+Al final, la única forma de no acabar ahogado entre alarmas es alertar solo lo importante. Claro que quizá, como dice el autor del post, no tengamos forma de relacionar nuestros datos con la experiencia del cliente, pero entonces el problemas es que no tenemos las herramientas adecuadas.
 
 La comparación que usa me parece perfecta, así que la voy a copiar tal cual: Imagina que vas al médico pensando que te has roto un hueso, y el médico te hace un <abbr title="Electroencefalograma">EEG</abbr> y un <abbr title="Electrocardiograma">ECG</abbr> antes que ver como caminas por la consulta. Se pone a leer los resultado y se da cuenta de que cuando apoyas la pierna izquierda tu pulso se acelera, lo cual concuerda con que tengas un hueso de la pierna roto. Pero... ¿no habría sido más sencillo hacer una placa de rayos X?
 
