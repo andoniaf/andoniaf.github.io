@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <style>
+    button { color: #000; }
+  </style>
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper" >
+      <ul>
+        <li><a href="./haven.html">Haven</a></li>
+        <li><a href="./split.html">Split</a></li>
+        <li><a href="./bind.html">Bind</a></li>
+        <li><a href="./ascent.html">Ascent</a></li>
+      </ul>
+      </div>
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
