@@ -6,7 +6,7 @@ build:
 .PHONY: up
 ## Start local github pages
 up:
-	docker run -it --rm -v ${PWD}:/usr/src/app -p "4000:4000" githubpages
+	docker run -it --rm -v ${PWD}:/usr/src/app -p "4000:4000" github-pages
 
 # Plonk the following at the end of your Makefile
 .DEFAULT_GOAL := show-help
