@@ -4,6 +4,10 @@
   {% include head.html %}
   <style>
     button { color: #000; }
+
+    .miniatura {
+      float: left;
+    }
   </style>
 
   <body>
@@ -13,11 +17,14 @@
     <div class="page-content">
       <div class="wrapper" >
       <ul>
-        <li><a href="./haven.html">Haven</a></li>
-        <li><a href="./split.html">Split</a></li>
-        <li><a href="./bind.html">Bind</a></li>
-        <li><a href="./ascent.html">Ascent</a></li>
+        <div class="miniatura" ><a href="/valorant/haven.html"><img src="/valorant/imgs/min_haven.png" alt="Haven" width="350"></a></div>
+        <div class="miniatura" ><a href="/valorant/split.html"><img src="/valorant/imgs/min_split.png" alt="Split" width="350"></a></div>
+        <div class="miniatura" ><a href="/valorant/bind.html"><img src="/valorant/imgs/min_bind.png" alt="Bind" width="350"></a></div>
+        <div class="miniatura" ><a href="/valorant/ascent.html"><img src="/valorant/imgs/min_ascent.png" alt="Ascent" width="350"></a></div>
       </ul>
+
+
+
       </div>
         {{ content }}
     </div>
