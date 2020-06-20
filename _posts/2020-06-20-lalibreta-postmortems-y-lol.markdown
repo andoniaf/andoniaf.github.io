@@ -66,7 +66,7 @@ A otros jugadores y streamers solo les he visto tomar nota de los resultados de 
 
 No tengo claro si esto tiene utilidad más allá de saber si has tenido un día mejor o peor. Creo que esos datos sin contexto pierden mucho valor. En una partida puedes tener una muy buena puntuación  habiendo cometido mucho errores y en otra al contrario, muy mala puntuación habiendo jugado bien.
 
-¿Qué opináis? ¿Os parece una locura tomar este tipo de notas jugando al LoL? ¿Creéis que al final la puntuación es un dato suficientemente objetivo? Espero vuestras opiniones por [<i class="fa fa-twitter-square fa-lg"></i>](https://twitter.com/andoni013) o [<i class="fa fa-linkedin-square fa-lg"></i>](https://www.linkedin.com)! Y si queréis más información acerca de los [postmortem](https://landing.google.com/sre/sre-book/chapters/postmortem-culture/) no dudéis en preguntar.
+¿Qué opináis? ¿Os parece una locura tomar este tipo de notas jugando al LoL? ¿Creéis que al final la puntuación es un dato suficientemente objetivo? Espero vuestras opiniones por [<i class="fa fa-twitter-square fa-lg"></i>](https://twitter.com/andoni013/status/1274319301177114624) o [<i class="fa fa-linkedin-square fa-lg"></i>](https://www.linkedin.com/posts/andoniaf_blog-n%C2%BA13-activity-6680084983589163008-pZzB/)! Y si queréis más información acerca de los [postmortem](https://landing.google.com/sre/sre-book/chapters/postmortem-culture/) no dudéis en preguntar.
 
 *~ Saludos y que la fuerza os acompañe!* <i class="fa fa-ra"></i>
 
