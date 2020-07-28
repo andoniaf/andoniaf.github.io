@@ -4,9 +4,15 @@ title: "Categorias"
 permalink: /categories/
 ---
 
+<style>
+a.category_tittle {
+  color: #333;
+}
+</style>
+
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
-  <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
+  <h2 id="{{cat}}"><a class="category_tittle" href="#{{cat}}">{{ cat | capitalize }}</a></h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
       <p class="desc"><em>{{ desc.desc }}</em></p>
