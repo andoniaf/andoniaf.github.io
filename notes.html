@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Notes log"
+permalink: /log/
+main_nav: false
+---
+
+<style>
+span.tags {
+  font-size: 12px;
+}
+
+</style>
+
+<ul>
+{% for link in site.data.linklog %}
+  <li>
+    {% if link.type == "read" %}<i class="fa fa-book"></i>{% endif %}
+    {% if link.type == "video" %}<i class="fa fa-video-camera"></i>{% endif %}
+    {% if link.type == "random" %}<i class="fa fa-random"></i>{% endif %}
+    <a href="{{link.link}}" ><b>{{ link.title }}</b></a><span class="tags">
+      [ {% for tag in link.tags %}<a href="/tags/#{{tag}}"> {{ tag }} </a>{% endfor %} ]</span>
+  </li>
+{% endfor %}
+</ul>

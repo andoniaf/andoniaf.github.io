@@ -1,0 +1,46 @@
+[
+  {
+    "date": 20200701133700,
+    "type": "read",
+    "title": "Read Me",
+    "link": "https://read.me",
+    "tags": [
+      "sre",
+      "slo"
+    ],
+    "notes": ""
+  },
+  {
+    "date": 20200701133701,
+    "type": "random",
+    "title": "Videooooo 2",
+    "link": "https://watch.me",
+    "tags": [
+      "dev",
+      "ruby"
+    ],
+    "notes": ""
+  },
+  {
+    "date": 20200701133701,
+    "type": "random",
+    "title": "Ran dom",
+    "link": "https://watch.lol",
+    "tags": [
+      "dev",
+      "python"
+    ],
+    "notes": ""
+  },
+  {
+    "date": 20200701133702,
+    "type": "random",
+    "title": "Ra== dom",
+    "link": "https://afasdfsad.lol",
+    "tags": [
+      "dev",
+      "amanda"
+    ],
+    "notes": ""
+  }
+]
