@@ -1,0 +1,24 @@
+---
+20200701133700:
+  type: read
+  title: Read Me
+  link: https://read.me
+  tags: [sre, slo]
+
+20200701133701:
+  type: random
+  title: Videooooo 2
+  link: https://watch.me
+  tags: [dev, ruby]
+
+20200701133701:
+  type: random
+  title: Ran dom
+  link: https://watch.lol
+  tags: [dev, python]
+
+20200701133702:
+  type: random
+  title: Ramdom
+  link: https://afasdfsad.lol
+  tags: [dev, amanda]
