@@ -33,7 +33,7 @@ def main(favType, favTitle, favLink, *args):
   data[favTime] = favEntry
 
   try:
-    print(data)
+    # print(data)
     orderedData = dict(sorted(data.items(), reverse=True))
     print(orderedData)
   except Exception as e:
