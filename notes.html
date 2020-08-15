@@ -10,16 +10,29 @@ span.tags {
   font-size: 12px;
 }
 
+span.date {
+  color: #888;
+  font-size: 11px;
+  font-style: italic;
+}
+
 </style>
+{% assign categories = "sre" | split: " " %}
+{% for link in site.data.linklog %}
+  {% for tag in link[1].tags %}
+    {% assign categories = categories | push: tag %}
+  {% endfor %}
+{% endfor %}
 
 <ul>
 {% for link in site.data.linklog %}
   <li>
-    {% if link.type == "read" %}<i class="fa fa-book"></i>{% endif %}
-    {% if link.type == "video" %}<i class="fa fa-video-camera"></i>{% endif %}
-    {% if link.type == "random" %}<i class="fa fa-random"></i>{% endif %}
-    <a href="{{link.link}}" ><b>{{ link.title }}</b></a><span class="tags">
-      [ {% for tag in link.tags %}<a href="/tags/#{{tag}}"> {{ tag }} </a>{% endfor %} ]</span>
+    {% if link[1].type == "read" %}<i class="fa fa-book"></i>{% endif %}
+    {% if link[1].type == "video" %}<i class="fa fa-video-camera"></i>{% endif %}
+    {% if link[1].type == "random" %}<i class="fa fa-random"></i>{% endif %}
+      <a href="{{link[1].link}}" ><b>{{ link[1].title }}</b></a><span class="tags">
+        [ {% for tag in link[1].tags %}<a href="/categories/#{{tag}}">  {{ tag }}  </a>{% endfor %} ]</span>
+      <span class="date">~ {{ link[0] | date: "%Y/%m/%d"}}</span>
   </li>
 {% endfor %}
 </ul>

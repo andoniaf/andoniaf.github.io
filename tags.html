@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Categorias"
-permalink: /categories/
+title: "Tags"
+permalink: /tags/
+main_nav: false
 ---
 
 <style>
-a.category_tittle {
+a.tag_tittle {
   color: #333;
 }
 
@@ -25,36 +26,32 @@ i.fa-external-link {
 </style>
 
 {% comment %} Create array with site categories and add favs tags {% endcomment %}
-{% assign raw_categories = "sre" | split: " " %}
-{% for site_cat in site.categories %}
-  {% capture cat %}{{ site_cat | first }}{% endcapture %}
+{% assign site_tags = "sre" | split: " " %}
+{% for tag in site.tags %}
+  {% capture cat %}{{ tag | first }}{% endcapture %}
   {% assign cat = cat | downcase %}
-  {% assign raw_categories = raw_categories | push: cat %}
+  {% assign site_tags = site_tags | push: cat %}
 {% endfor %}
 
 {% for link in site.data.linklog %}
   {% for tag in link[1].tags %}
     {% assign dtag = tag | downcase %}
-    {% assign raw_categories = raw_categories | push: dtag %}
+    {% assign site_tags = site_tags | push: dtag %}
   {% endfor %}
 {% endfor %}
 
-{% assign categories = raw_categories | uniq | sort %}
+{% assign uniq_site_tags = site_tags | uniq | sort %}
 {% comment %} ------- {% endcomment %}
 
-{% for cat in categories %}
-  <h2 id="{{cat}}"><a class="category_tittle" href="#{{cat}}">{{ cat }}</a></h2>
+{% for cat in uniq_site_tags %}
+  <h2 id="{{cat}}"><a class="tag_tittle" href="#{{cat}}">{{ cat }}</a></h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
       <p class="desc"><em>{{ desc.desc }}</em></p>
     {% endif %}
   {% endfor %}
   <ul class="posts-list">
-  {% comment %} Each word in site.categories MUST be capitalized {% endcomment %}
-  {% assign words = cat | split: ' ' %}
-  {%capture Cat %}{% for word in words %}{{word | capitalize }} {% endfor %}{% endcapture %}
-  {% assign Cat = Cat | rstrip %}
-  {% for post in site.categories[Cat] %}
+  {% for post in site.tags[cat] %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -65,11 +62,8 @@ i.fa-external-link {
   {% for link in site.data.linklog %}
     {% if link[1].tags contains cat %}
     <li>
-      <a href="{{link[1].link}}" ><i class="fa fa-external-link"></i><b> {{ link[1].title }}</b></a>
-      <span class="tags">[ {% for raw_tag in link[1].tags %}
-          {% assign tag = raw_tag | downcase %}
-          <a href="/categories/#{{tag}}"> {{ tag }}  </a>
-      {% endfor %} ]</span>
+      <a href="{{link[1].link}}" ><b><i class="fa fa-external-link"></i> {{ link[1].title }}</b></a><span class="tags">
+        [ {% for raw_tag in link[1].tags %}{% assign tag = raw_tag | downcase %}<a href="/categories/#{{tag}}">  {{ tag }} </a>{% endfor %} ]</span>
       <span class="date">~ {{ link[0] | date_to_long_string }}</span>
     </li>
     {% endif %}
