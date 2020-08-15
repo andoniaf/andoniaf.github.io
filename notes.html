@@ -6,17 +6,8 @@ main_nav: false
 ---
 
 <style>
-span.tags {
-  font-size: 12px;
-}
-
-span.date {
-  color: #888;
-  font-size: 11px;
-  font-style: italic;
-}
-
 </style>
+
 {% assign categories = "sre" | split: " " %}
 {% for link in site.data.linklog %}
   {% for tag in link[1].tags %}

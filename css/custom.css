@@ -1,0 +1,21 @@
+span.tags {
+  font-size: 12px;
+}
+
+span.date {
+  color: #888;
+  font-size: 14px;
+  font-style: italic;
+}
+
+i.fa-external-link {
+  color: #444;
+}
+
+a.category_tittle {
+  color: #333;
+}
+
+a.tag_tittle {
+  color: #333;
+}
