@@ -3,7 +3,7 @@ layout: post
 title: "#LaLibreta: Postmortems y League of Legends"
 date: 2020-06-20 11:13:37
 author: Andoni A.
-categories: opinion
+categories: Opinion
 tags: opinion postmortems sre leagueoflegends stream
 cover: "/assets/images/2020/lalibreta_head.png"
 ---

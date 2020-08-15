@@ -3,7 +3,7 @@ layout: post
 title: Nextcloud - Añadiendo un segundo factor de autenticación
 date: 2017-01-13 14:37
 author: Andoni A.
-categories: Linux
+categories: [Software Libre]
 tags: [cloud, linux, nextcloud, selfhosted]
 ---
 Continuando con Nextcloud, he encontrado un plugin muy interesante que permite habilitar un segundo factor de autenticación en nuestra Nube.

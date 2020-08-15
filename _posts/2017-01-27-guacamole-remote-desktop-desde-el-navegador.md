@@ -3,6 +3,7 @@ layout: post
 title: Guacamole - Remote Desktop desde el navegador
 date: 2017-01-27 08:37
 author: Andoni A.
+categories: [Software Libre]
 tags: [guacamole, remote desktop, selfhosted]
 ---
 Buenas, hoy os voy a explicar mi receta secreta para un buen guacamole, necesitamos: una maquina CentOS, un poco de tiempo, algo de ganas, y por último ir al supermercado a comprar un tarro de Guacamole.
