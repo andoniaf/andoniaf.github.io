@@ -1,24 +1,16 @@
----
-20200701133700:
+2020-08-05-184718:
   type: read
-  title: Read Me
-  link: https://read.me
-  tags: [sre, slo]
-
-20200701133701:
-  type: random
-  title: Videooooo 2
-  link: https://watch.me
-  tags: [dev, ruby]
-
-20200701133701:
-  type: random
-  title: Ran dom
-  link: https://watch.lol
-  tags: [dev, python]
-
-20200701133702:
-  type: random
-  title: Ramdom
-  link: https://afasdfsad.lol
-  tags: [dev, amanda]
+  title: Some SQL Tricks of an Application DBA
+  link: https://hakibenita.com/sql-tricks-application-dba
+  tags:
+  - sql
+  - dba
+  - performance
+2020-08-06-162442:
+  link: https://queue.acm.org/detail.cfm?id=3283589
+  tags:
+  - documentation
+  - sre
+  - culture
+  title: Why SRE Documents Matter
+  type: read
