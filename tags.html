@@ -1,0 +1,54 @@
+---
+layout: page
+title: "Tags"
+permalink: /tags/
+main_nav: false
+---
+
+{% comment %} Create array with site categories and add favs tags {% endcomment %}
+{% assign site_tags = "sre" | split: " " %}
+{% for tag in site.tags %}
+  {% capture cat %}{{ tag | first }}{% endcapture %}
+  {% assign cat = cat | downcase %}
+  {% assign site_tags = site_tags | push: cat %}
+{% endfor %}
+
+{% for link in site.data.linklog %}
+  {% for tag in link[1].tags %}
+    {% assign dtag = tag | downcase %}
+    {% assign site_tags = site_tags | push: dtag %}
+  {% endfor %}
+{% endfor %}
+
+{% assign uniq_site_tags = site_tags | uniq | sort %}
+{% comment %} ------- {% endcomment %}
+
+{% for cat in uniq_site_tags %}
+  <h2 id="{{cat}}"><a class="tag_tittle" href="#{{cat}}">{{ cat }}</a></h2>
+  {% for desc in site.descriptions %}
+    {% if desc.cat == cat %}
+      <p class="desc"><em>{{ desc.desc }}</em></p>
+    {% endif %}
+  {% endfor %}
+  <ul class="posts-list">
+  {% for post in site.tags[cat] %}
+    <li>
+      <strong>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </strong>
+      <span class="date">~ {{ post.date | date_to_long_string }}</span>
+    </li>
+  {% endfor %}
+  {% for link in site.data.linklog %}
+    {% if link[1].tags contains cat %}
+    <li>
+      <a href="{{link[1].link}}" ><b><i class="fa fa-external-link"></i> {{ link[1].title }}</b></a><span class="tags">
+        [ {% for raw_tag in link[1].tags %}{% assign tag = raw_tag | downcase %}<a href="/categories/#{{tag}}">  {{ tag }} </a>{% endfor %} ]</span>
+      <span class="date">~ {{ link[0] | date_to_long_string }}</span>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  {% if forloop.last == false %}<hr>{% endif %}
+{% endfor %}
+<br>

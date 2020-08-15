@@ -3,7 +3,7 @@ layout: post
 title:  "Writeup — HTB Blocky"
 date:   2017-12-10 13:13:13
 author: Andoni A.
-categories: Writeups
+categories: Writeups Seguridad
 tags: linux writeup seguridad ctf
 cover: "/assets/hacking_header.jpg"
 ---

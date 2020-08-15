@@ -3,7 +3,7 @@ layout: post
 title: "AIOps, ¿que es y por que nada más descubrirlo ya no me gusta?"
 date: 2020-05-30 13:13:37
 author: Andoni A.
-categories: opinion
+categories: Opinion
 tags: ml ai review aiops opinion
 cover: "/assets/images/2020/gear.jpg"
 ---

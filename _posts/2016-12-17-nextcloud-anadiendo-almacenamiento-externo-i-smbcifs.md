@@ -3,7 +3,7 @@ layout: post
 title: Nextcloud - Añadiendo almacenamiento externo I (SMB/CIFS)
 date: 2016-12-17 13:37
 author: Andoni A.
-categories: Linux
+categories: [Software Libre]
 tags: [cloud, linux, nextcloud, selfhosted]
 ---
 Complementando la ultima entrada, en la que instalaba Nextcloud, ahora vamos a ver como añadir espacio usando la función de almacenamiento externo.
