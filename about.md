@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
+title: AboutMe
 permalink: /about/
 ---
 
-[//]: <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
 Bienvenido a mi blog, mi nombre es **Andoni**.
 
@@ -12,6 +11,8 @@ Trabajo como [SRE](https://landing.google.com/sre/) y me gusta definirme como un
 > “Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos
 las mismas cosas.”
 
-Siempre me ha gustado escribir, y como también se suele decir *"la mejor forma de aprender es enseñando"*, así que aquí encontraréis cosas que me han resultado interesantes de compartir.
+Siempre me ha gustado escribir, y como se suele decir *"la mejor forma de aprender es enseñando"*, así que aquí encontraréis cosas que me han resultado interesantes de compartir.
 
-*~ Saludos y que la fuerza os acompañe!*
+<img src="{{ site.baseurl }}/assets/cybercamp.jpg" title="Hackathon Cybercamp 2018" class="profile">
+
+*~ Saludos y que la fuerza os acompañe!* <i class="fa fa-ra"></i>
