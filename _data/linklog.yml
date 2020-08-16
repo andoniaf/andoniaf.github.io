@@ -1,11 +1,18 @@
-2020-08-05-184718:
-  type: read
-  title: Some SQL Tricks of an Application DBA
-  link: https://hakibenita.com/sql-tricks-application-dba
+2020-04-06-175318:
+  type: video
+  title: 'Incidents: What Is Often Missed & What Can Be Done About That'
+  link: https://www.adaptivecapacitylabs.com/blog/2020/03/30/incidents-what-is-often-missed-what-can-be-done-about-that/
   tags:
-  - sql
-  - dba
-  - performance
+  - incidents
+  - learning
+2020-08-10-173607:
+  type: read
+  title: Obstacles to Learning from Incidents
+  link: https://www.learningfromincidents.io/blog/obstacles-to-learning-from-incidents
+  tags:
+  - incidents
+  - learning
+  - oncall
 2020-08-06-162442:
   link: https://queue.acm.org/detail.cfm?id=3283589
   tags:
@@ -14,3 +21,35 @@
   - culture
   title: Why SRE Documents Matter
   type: read
+2020-08-05-184718:
+  type: read
+  title: Some SQL Tricks of an Application DBA
+  link: https://hakibenita.com/sql-tricks-application-dba
+  tags:
+  - sql
+  - dba
+  - performance
+2020-07-22-174103:
+  type: read
+  title: Systems design for advanced beginners
+  link: https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/
+  tags:
+  - systems
+2020-07-21-174255:
+  type: read
+  title: Change Advisory Boards Don't Work
+  link: https://octopus.com/blog/change-advisory-boards-dont-work
+  tags:
+  - culture
+2020-06-16-174639:
+  type: read
+  title: No One Knows What the F*** They're Doing (or The 3 Types of Knowledge)
+  link: https://www.bridge-global.com/blog/3-types-of-knowledge/
+  tags:
+  - learning
+2020-06-08-174957:
+  type: video
+  title: How language shapes the way we think
+  link: https://www.youtube.com/watch?v=RKK7wGAYP6k
+  tags:
+  - learning

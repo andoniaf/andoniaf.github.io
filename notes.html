@@ -24,7 +24,7 @@ Enlaces a articulos, videos y otras que considero merece la pena guardar y compa
     {% if link[1].type == "random" %}<i class="fa fa-random"></i>{% endif %}
       <a href="{{link[1].link}}" ><b>{{ link[1].title }}</b></a><span class="tags">
         [ {% for tag in link[1].tags %}<a href="/categories/#{{tag}}">  {{ tag }}  </a>{% endfor %} ]</span>
-      <span class="date">~ {{ link[0] | date: "%Y/%m/%d"}}</span>
+      {% comment %} <span class="date">~ {{ link[0] | date: "%Y/%m/%d"}}</span> {% endcomment %}
   </li>
 {% endfor %}
 </ul>
