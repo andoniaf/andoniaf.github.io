@@ -1,9 +1,30 @@
-2020-04-06-175318:
-  type: video
-  title: 'Incidents: What Is Often Missed & What Can Be Done About That'
-  link: https://www.adaptivecapacitylabs.com/blog/2020/03/30/incidents-what-is-often-missed-what-can-be-done-about-that/
+2020-09-17-080017:
+  type: read
+  title: Markers of Progress in Incident Analysis
+  link: https://www.adaptivecapacitylabs.com/blog/2019/11/20/markers-of-progress-incident-analysis/
   tags:
   - incidents
+  - oncall
+2020-09-14-080138:
+  type: read
+  title: Alerting on SLOs
+  link: https://mads-hartmann.com/sre/2020/09/08/alerting-on-slos.html
+  tags:
+  - sre
+  - incidents
+  - oncall
+2020-09-04-080251:
+  type: read
+  title: Relativismo en el desarrollo de software
+  link: http://www.miguel.im/article/2020/08/01/relativismo.html
+  tags:
+  - dev
+2020-09-04-080205:
+  type: read
+  title: How Do Rocket Scientists Learn? (aka, knowledge management lessons learned
+    at Goddard, NASA)
+  link: https://www.govloop.com/community/blog/how-do-rocket-scientists-learn-aka-knowledge-management-lessons-learned-at-goddard-nasa/
+  tags:
   - learning
 2020-08-10-173607:
   type: read
@@ -52,4 +73,11 @@
   title: How language shapes the way we think
   link: https://www.youtube.com/watch?v=RKK7wGAYP6k
   tags:
+  - learning
+2020-04-06-175318:
+  type: video
+  title: 'Incidents: What Is Often Missed & What Can Be Done About That'
+  link: https://www.adaptivecapacitylabs.com/blog/2020/03/30/incidents-what-is-often-missed-what-can-be-done-about-that/
+  tags:
+  - incidents
   - learning
