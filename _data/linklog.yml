@@ -1,3 +1,39 @@
+2020-11-28-101718:
+  type: read
+  title: The Future of Developer Careers
+  link: https://thenewstack.io/the-future-of-developer-careers
+  tags:
+  - dev
+  - culture
+  - devops
+2020-11-27-101648:
+  type: read
+  title: How COVID-19 pushed us to reduce our AWS cost by half
+  link: https://lambda.grofers.com/response-to-covid-19-lessons-learned-in-aws-cost-optimization-b466f354b123
+  tags:
+  - cloud
+  - aws
+  - cost
+2020-10-02-101532:
+  type: read
+  title: Writing Good Test Descriptions
+  link: https://guilhermesimoes.github.io/blog/writing-good-test-descriptions
+  tags:
+  - testing
+  - dev
+2020-09-29-101429:
+  type: read
+  title: Scaling relational SQL databases
+  link: https://stribny.name/blog/2020/07/scaling-relational-sql-databases
+  tags:
+  - dba
+  - sql
+2020-09-22-101352:
+  type: read
+  title: "Availability, Maintainability, Reliability: What's the Difference?"
+  link: https://www.blameless.com/blog/availability-maintainability-reliability-whats-the-difference
+  tags:
+  - sre
 2020-09-17-080017:
   type: read
   title: Markers of Progress in Incident Analysis
