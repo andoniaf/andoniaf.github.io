@@ -1,3 +1,31 @@
+
+2022-10-25-181117:
+  type: read
+  title: Let a 1,000 flowers bloom. Then rip 999 of them out by the roots.
+  link: https://gigamonkeys.com/flowers/
+  tags:
+  - culture
+2022-10-25-181017:
+  type: read
+  title: No observability without theory – Dan Slimmon
+  link: https://blog.danslimmon.com/2019/05/03/no-observability-without-theory/
+  tags:
+  - o11y
+2022-10-25-180917:
+  type: read
+  title: Best Practices for Fixing Your Alerts
+  link: https://newrelic.com/blog/how-to-relic/best-practices-for-alerts
+  tags:
+  - incidents
+  - o11y
+  - alerting
+2022-10-25-180818:
+  type: read
+  title: Being Glue — No Idea Blog
+  link: https://noidea.dog/glue
+  tags:
+  - culture
+  - career
 2020-11-28-101718:
   type: read
   title: The Future of Developer Careers
